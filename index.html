@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+      <nav id="navbar">
+        <header>Semantic HTML Elements</header>
+        <li><a href="#&lt;header&gt;" class="nav-link">&lt;header&gt;</a></li>
+        <li><a href="#&lt;section&gt;" class="nav-link">&lt;section&gt;</a></li>
+        <li><a href="#&lt;article&gt;" class="nav-link">&lt;article&gt;</a></li>
+        <li><a href="#&lt;aside&gt;" class="nav-link">&lt;aside&gt;</a></li>
+        <li><a href="#&lt;footer&gt;" class="nav-link">&lt;footer&gt;</a></li>
+      </nav>
+<main id="main-doc">
+  <section id="intro">
+    <header>What are Semantic HTML Elements?</header>
+    <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+    <p>Semantic elements = elements with a meaning.</p>
+  </section>
+  <!---Header Section--->
+  <section class="main-section" id="&lt;header&gt;">
+    <header>&lt;header&gt;</header>
+    <p>The &lt;header&gt; element represents a container for introductory content or a set of navigational links.</p>
+    <p>A &lt;header&gt; element typically contains:</p>
+    <li>one or more heading elements (&lt;h1&gt; - &lt;h6&gt;)</li>
+    <li>logo or icon</li>
+    <li>authorship information</li>
+    <p>Example:</p>
+    <code>&lt;article&gt;
+  <br>&lt;header&gt;
+    <br>&lt;h1&gt;What Does WWF Do?&lt;/h1&gt;
+    <br>&lt;p&gt;WWF's mission:&lt;/p&gt;
+  <br>&lt;/header&gt;
+ <br> &lt;p&gt;WWF's mission is to stop the degradation of our planet's natural environment,
+  and build a future in which humans live in harmony with nature.&lt;/p&gt;
+<br>&lt;/article&gt;</code>
+  </section>
+  <!---Section Section--->
+  <section class="main-section" id="&lt;section&gt;">
+    <header>&lt;section&gt;</header>
+    <p>The &lt;section&gt; element defines a section in a document.</p>
+    <p>According to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading."</p>
+    <p>Examples of where a &lt;section&gt; element can be used:</p>
+    <li>Chapters</li>
+    <li>Introduction</li>
+    <li>News items</li>
+    <li>Contact information</li>
+    <p>Example:</p>
+    <code>&lt;section&gt;
+<br>&lt;h1&gt;WWF&lt;/h1&gt;
+<br>&lt;p&gt;The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.&lt;/p&gt;
+<br>&lt;/section&gt;
+<br>
+<br>&lt;section&gt;
+<br>&lt;h1&gt;WWF's Panda symbol&lt;/h1&gt;
+<br>&lt;p&gt;The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.&lt;/p&gt;
+<br>&lt;/section&gt;</code>
+  </section>
+    <!---Article Section--->
+  <section class="main-section" id="&lt;article&gt;">
+    <header>&lt;article&gt;</header>
+    <p>The &lt;article&gt; element specifies independent, self-contained content. An article should make sense on its own, and it should be possible to distribute it independently from the rest of the web site.</p>
+    <p>Examples of where the &lt;article&gt; element can be used:</p>
+    <li>Forum posts</li>
+    <li>Blog posts</li>
+    <li>User comments</li>
+    <li>Product cards</li>
+    <li>Newspaper articles</li>
+    <p>Example:</p>
+    <code>&lt;article&gt;
+<br>&lt;h2&gt;Google Chrome&lt;/h2&gt;
+<br>&lt;p&gt;Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;
+<br>&lt;/article&gt;
+<br>
+<br>&lt;article&gt;
+<br>&lt;h2&gt;Mozilla Firefox&lt;/h2&gt;
+<br>&lt;p&gt;Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.&lt;/p&gt;
+<br>&lt;/article&gt;
+<br>
+<br>&lt;article&gt;
+<br>&lt;h2&gt;Microsoft Edge&lt;/h2&gt;
+<br>&lt;p&gt;Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.&lt;/p&gt;
+<br>&lt;/article&gt;</code>
+  </section>
+  <!---Aside Section--->
+  <section class="main-section" id="&lt;aside&gt;">
+    <header>&lt;aside&gt;</header>
+    <p>The &lt;aside&gt; element defines some content aside from the content it is placed in (like a sidebar).</p>
+    <p>The &lt;aside&gt; content should be indirectly related to the surrounding content.</p>
+    <li>Display some content aside from the content it is placed in.</li>
+    <p>Example:</p>
+    <code>
+      &lt;p&gt;My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!&lt;/p&gt;
+<br>&lt;aside&gt;
+<br>&lt;h4&gt;Epcot Center&lt;/h4&gt;
+<br>&lt;p&gt;Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.&lt;/p&gt;
+<br>&lt;/aside&gt;
+    </code>
+    <!---Footer Section--->
+    <section class="main-section" id="&lt;footer&gt;">
+    <header>&lt;footer&gt;</header>
+    <p>The &lt;footer&gt; element defines a footer for a document or section.</p>
+    <p>A &lt;footer&gt; element typically contains:</p>
+    <li>authorship information</li>
+    <li>copyright information</li>
+    <li>contact information</li>
+    <li>sitemap</li>
+    <li>back to top links</li>
+    <li>related documents</li>
+    <p>Example:</p>
+    <code>&lt;footer&gt;
+  <br>&lt;p&gt;Author: Hege Refsnes&lt;/p&gt;
+  <br>&lt;p&gt;&lt;a href="mailto:hege@example.com"&gthege@example.com&lt;/a&gt;&lt;/p&gt;
+<br>&lt;/footer&gt;</code>
+<p id="backtotop"><a href="#intro">Back To Top</p>
+</main>
+<footer>
+  Reference:
+  <br>
+  All documentation in this page is taken from: <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">w3schools.com</a>
+</footer>
+</body>
+</html>

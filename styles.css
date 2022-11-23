@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  margin: 0;
+  font-family: roboto, arial, sans serif;
+  max-width: 100%vw;
+}
+#navbar{
+  max-width: 15%vw;
+  position: fixed;
+  height: 100%vh;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  
+}
+#navbar li{
+  padding: 0.5rem 0;
+  font-size: 1.15rem;
+  margin: 0.5rem 0;
+  text-align: center;
+  background-color: lightblue;
+  list-style-type: none;
+}
+#navbar header{
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  color:black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: lightgray;
+}
+#main-doc{
+  margin-left: 15rem;
+  width: 100%vw;
+  height: auto;
+  position: relative;
+  padding: 1rem;
+}
+.main-section{
+  padding: 1rem 0;
+}
+header{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+code{
+  background-color:lightgray;
+  display:block;
+  padding: 0.5rem;
+  border-radius: 8px;
+  }
+p:last-of-type{
+  font-style: italic;
+}
+footer{
+  text-align: center;
+  border-top: 1px solid lightgray;
+  padding: 0.5rem;
+  background-color: lightblue;
+  bottom: 0;
+  
+}
+@media screen and (max-width: 650px){
+  #main-doc{
+    height: 100%vh;
+    min-width: 500px;
+  }
+  code{
+    word-wrap:break-word;
+  }
+ }
